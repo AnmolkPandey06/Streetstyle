@@ -1,0 +1,149 @@
+body{
+    background-color: black;
+    background-image: url("https://c.pxhere.com/photos/12/83/female_lady_model_pavement_posing_sidewalk_street_woman-1179651.jpg!d");
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 0px;
+}
+
+html{
+    font-size: 20px;
+}
+
+header{
+    height: 3rem;
+    background-color: rgb(0, 0, 0); 
+    margin-left: 30rem;
+    /* border-bottom: 0.5rem solid #9D00FF;
+    border-right: 1rem solid #9D00FF; */
+    position:sticky;
+    top:0.01rem;
+    
+    
+}
+header form{
+    display:inline-block;
+    width:12rem;
+    /* background-color: aliceblue; */
+    background-color: rgb(0, 0, 0); 
+    height:3rem;
+    position:sticky;
+    /* margin-left: 2rem;
+    margin-right: 2rem; */
+    /* text-align: center; */
+}
+header form button{
+    /* border: 0.05rem solid rgb(255, 255, 255) ; */
+    background-color: rgb(0, 0, 0);
+    font-size: 0.8em;
+    width:14em;
+    color:azure;
+    text-align: center;
+    padding:0.5em 0.4em;
+    /* position:sticky; */
+}
+header form button span{
+    font-size:1.2rem;
+    /* position:sticky; */
+}
+
+.Heading p{
+    font-size: 10rem;
+    text-align: right;
+    margin-right: 5rem;
+    margin-top: 2rem;
+    
+    font-family: 'Roboto';
+    font-weight: 500;
+    color :#FF9933;
+    font-style: italic;
+
+
+}
+.Heading p span{
+    color :black;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-style: italic;
+
+}
+.login{
+    position:absolute;
+    background-color: aqua;
+    margin-left: 55rem;
+    margin-right: 10rem;
+    height:17rem;
+    bottom:8rem;
+    width:25rem;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0); 
+    box-shadow: 10px 10px 5px rgb(231, 164, 77); 
+}
+.login p{
+    color:aliceblue;
+    font-family: 'cabin';
+    line-height: 2rem;
+    padding: 1rem 1rem;
+}
+.login form{
+    display:inline-block;
+}
+.login button{
+    background-color: rgb(0, 0, 0);
+    border: 0.1rem solid rgb(255, 255, 255) ;
+    font-size: 0.8em;
+    width:14em;
+    color:azure;
+    text-align: center;
+    margin:0.5em;
+    margin-left: 0.8em;
+    padding:0.5em 0.4em;
+    font-family:'Roboto';
+    font-style: normal;
+}
+.login button:hover{
+    cursor: pointer;
+    box-shadow: 10px 10px 5px rgb(237, 195, 141);
+
+}
+header button:hover{
+    cursor: pointer;
+    border-bottom: 0.1rem solid orange ;
+    box-shadow: 10px 10px 5px rgb(231, 164, 77);
+}
+
+footer {
+    background-color: rgba(0, 0, 0,0.5);
+    margin-top: 30rem;
+    height: 5rem;
+    text-align: center;
+}
+
+footer p{
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
+
+footer a{
+    margin: 1rem;
+    font-size: 1.5rem;
+    color:blueviolet
+}
+footer a:hover{
+    color:#FF9933;
+    cursor: pointer;
+}
+
+#arrow{
+    transform-origin: 0 0;
+    transition: all 1s ease;
+    color: rgb(255, 255, 255);
+}
+#arrow:hover{
+    /* position: absolute; */
+    transform: rotate(-270deg);
+    color: #FF9933;
+}
